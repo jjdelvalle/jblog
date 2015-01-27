@@ -1,25 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-01-27 17:08:05
-categories: jekyll update
+title:  "First post!"
+date:   2015-01-27 17:48:05
+categories: jekyll blog
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+It's been a while since I've used ruby, so it took a bit to tweaking around to get it working (since most distros aren't great at giving you a recent version). `Jekyll` has been kinda wonderful so far. I had only used it once before this time, and I wasn't really familiar with it, and I guess I still aren't, I just set up some posts and that was it.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+First thing I'll do is probably post something I had written before somewhere else, move it here, and that will probably be my first actual post.
 
-Jekyll also offers powerful support for code snippets:
+This blog might actually make me want to start doing some other cool stuff with a domain I share with a friend... we'll see how it goes.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Blog will most likely be about stuff I do during the day/week, depending on how often I update it, and the things I'll be doing most likely will have to do computer science, linguistics, compling, bodyweight fitness, tetris ...and that's about it.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Check out the [my Github page][github] for more info on what I've done and what I like to do. I'd share some other accounts, but I don't think it'd be worth and I'm not that comfortable with it either.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+[github]:      https://github.com/clinchergt
