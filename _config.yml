@@ -1,0 +1,13 @@
+# Site settings
+title: CS, Linguistics, BWF, Tetris, etc.
+email: delvallejacobo@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This will be just a simple blog that will hopefully stay active. I'll probably write mostly about CS-related stuff, linguistics, bodeweight fitness. Hopefully update people on what I'm doing (only the interesting stuff, obviously).
+baseurl: "/jblog" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: clinchergt
+github_username: clinhergt
+
+# Build settings
+markdown: redcarpet
+exclude: ['.git', '.gitignore', 'README.md', 'LICENSE.md']
