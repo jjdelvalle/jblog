@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -14,7 +14,7 @@ baseurl: "/jblog" # the subpath of your site, e.g. /blog/
 twitter_username: clinchergt
 github_username: clinchergt
 
-plugins: [jekyll-paginate, jekyll-gist, pygments.rb]
+plugins: [jekyll-paginate, jekyll-gist]
 
 paginate:         5
 personal:
