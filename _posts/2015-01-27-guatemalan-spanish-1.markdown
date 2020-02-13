@@ -6,13 +6,13 @@ categories: linguistics spanish
 ---
 Guatemalan Spanish is filled with interesting, at least according to me, features. I’ll be trying to cover some features in this blog whenever I’m bored and have nothing else to do. I hope some people will find them interesting.
 
-###Feature #1: The word bien
+### Feature #1: The word bien
 
-Now, you’re probably thinking: _Bien_? Isn’t that word part of every Spanish dialect out there? Well, yeah, but in Guatemalan Spanish, this simple little word has an extra use. It can be used to answer negative questions in a positive manner, i.e. indicating the contrary of the question asked. Analogous to the German doch and the Norwegian jo.
+Now, you’re probably thinking: _Bien_? Isn’t that word part of every Spanish dialect out there? Well, yeah, but in Guatemalan Spanish, this simple little word has an extra use. It can be used to answer negative questions in a positive manner, i.e. indicating the contrary of the question asked. Analogous to the German _doch_ and the Norwegian _jo_.
 
 Note: Just like these other words in other languages, it doesn’t necessarily have to be an answer to a question.
 
-####Examples:
+#### Examples:
 
 >-¿Ayer no fuiste a la fiesta?  
 >-Bien, pero llegué tarde.
