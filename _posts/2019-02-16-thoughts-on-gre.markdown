@@ -7,8 +7,8 @@ categories: grad school gre
 
 I've been done with my undergrad for a while now, and I've been looking at going
 to grad school. The general GRE is something I didn't even know existed back
-in November (3 months ago). However, I managed to get a 335 (out of 340) when I
-took the testin late November. Now, how did I do that? I will share some of my
+in late November (3 months ago). However, I managed to get a 335 (out of 340) when I
+took the test in late January. Now, how did I do that? I will share some of my
 thoughts in this post and hopefully, they will be of help to someone out there.
 I also plan to write more about the GRE in general, since I am still learning
 more about it to this day and, even though, I don't plan on retaking it, I'm
