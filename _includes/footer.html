@@ -4,12 +4,13 @@
 		<script type="text/javascript">
                         inlineExps = document.querySelectorAll('script[type=math\\/tex]');
                         for(var i = 0; i < inlineExps.length; i++){
-                            expression = inlineExps[i]
+                            expression = inlineExps[i];
                             expression.outerHTML = katex.renderToString(expression.text, {displayMode: false});
                         }
 
                         fullExps = document.querySelectorAll('script[type=\'math\\/tex; mode=display\']');
-                        for(var expression = 0; i < fullExps.length; i++){
+                        for(var i = 0; i < fullExps.length; i++){
+			    expression = fullExps[i];
                             expression.outerHTML = katex.renderToString(expression.text.replace(/%.*/g, ''), {displayMode: false});
                         }
                         
