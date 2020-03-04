@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thoughts on the GRE as a 335 Scorer"
-date:   2019-02-16 23:23:10
+date:   2020-02-16 23:23:10
 categories: grad-school gre
 ---
 
