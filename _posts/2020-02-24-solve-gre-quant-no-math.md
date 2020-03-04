@@ -6,7 +6,7 @@ categories: grad-school gre
 hasmath:   "true"
 ---
 
-What is $$\pi$$? Yes, I know it's $$3.14159 \dotsc$$. But what does it represent?
+What is $$\pi$$? Yes, I know it's $$3.14159 \ldots$$. But what does it represent?
 What's the concept behind the number and why is it so useful? If you know the
 answer to these questions, you may very well be able to abuse the concept of
 $$\pi$$ and solve the following question in under 5 seconds:
