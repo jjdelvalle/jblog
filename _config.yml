@@ -16,7 +16,7 @@ baseurl: "/jblog" # the subpath of your site, e.g. /blog/
 twitter_username: clinchergt
 github_username: clinchergt
 
-plugins: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist, execjs, therubyracer, kramdown-math-katex]
 
 paginate:         5
 personal:
