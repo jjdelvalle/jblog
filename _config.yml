@@ -1,7 +1,9 @@
 # Dependencies
 markdown:         kramdown
 kramdown:
-   math_engine:   katex
+   # We're using mathjax because gh-pages forces it
+   # we're also usint the auto-render katex extension because of it
+   math_engine:   mathjax
 highlighter:      rouge
 
 # Permalinks
@@ -16,7 +18,7 @@ baseurl: "/jblog" # the subpath of your site, e.g. /blog/
 twitter_username: clinchergt
 github_username: clinchergt
 
-plugins: [jekyll-paginate, jekyll-gist, execjs, therubyracer, kramdown-math-katex]
+plugins: [jekyll-paginate, jekyll-gist]
 
 paginate:         5
 personal:
