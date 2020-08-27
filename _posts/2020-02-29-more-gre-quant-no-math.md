@@ -35,7 +35,7 @@ most people would go about it:
 
 Since
 
-$$0.6 + 0.5 + 0.1 > 1 $$
+$$ 0.6 + 0.5 + 0.1 > 1 $$
 
 there must be some overlap, and since
 
