@@ -12,7 +12,7 @@ permalink:        pretty
 # Setup
 title: JDV's Blog
 email: delvallejacobo@gmail.com
-description: CS, Linguistics, BWF, Tetris, etc. 
+description: CS, Linguistics, BWF, Tetris, etc.
 baseurl: "/jblog" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: clinchergt
