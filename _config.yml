@@ -11,14 +11,17 @@ permalink:        pretty
 
 # Setup
 title: JDV's Blog
+tagline: CS, Linguistics, Grad School, etc.
 email: delvallejacobo@gmail.com
-description: CS, Linguistics, BWF, Tetris, etc.
+description: A blog on my thoughts about CS, linguistics, grad school, music theory, bwf, tetris, ssbm, etc.
+author: JDV
+logo: public/favicon.ico
 baseurl: "/jblog" # the subpath of your site, e.g. /blog/
 url: "https://codewrites.me" # the base hostname & protocol for your site
 twitter_username: clinchergt
 github_username: clinchergt
 
-plugins: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 
 paginate:         5
 personal:
