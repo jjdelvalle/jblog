@@ -131,6 +131,8 @@ Fig. 6 certainly makes me feel like it does. GPA might just be an indicator of h
 
 The only section of the GRE that could possibly be a predictor according to this data might be the Analytical Writing section. While this section is the one I personally respect more out of the whole test, it's often the most ignored section in my experience.
 
+The reason for that `0.5` difference being so significant, in my opinion, comes from the fact that percentiles for the two scores are vastly different, as opposed to e.g. a difference of one or two points in the Verbal or Quantitative sections.
+
 ## Final notes
 
 This is by all imaginable metrics bad statistics. It's however more than we had before when it comes to actual graduate admissions data. Some of this analysis confirms what Deedy's analysis was over 5 years ago.
@@ -138,6 +140,8 @@ This is by all imaginable metrics bad statistics. It's however more than we had 
 We analyzed over 600,000 entries to GradCafe and while this sample is probably biased incredibly and even might include some *troll* posts, it's probably reliable enough to arrive at some answers.
 
 Distributions shown here probably vary *a lot* by field, and I can only encourage people to explore how their field behaves further.
+
+Finally, several threads and comments by grad admissions committee members have come out pretty much outright stating that research experience and LORs are pretty much the most important aspects of your application once you're past the GPA and GRE filters. This analysis seems to agree with the notion that once you're past a certain threshold those non-measureable aspects come into play. Maybe in the future it'd be worth it to analyze the comment section of GradCafe where applicants usually include their research experience and LOR information.
 
 I will be updating this post with stats and answers to those questions. I will also be adding most posts with more questions to be answered.
 
