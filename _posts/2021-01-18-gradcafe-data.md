@@ -32,11 +32,26 @@ I wouldn't be able to sleep at night without adding some huge disclaimers to thi
 
 I scraped the data using code [available on GitHub](https://github.com/jjdelvalle/gradcafe_analysis) that's largely based on Debarghya Das's code. However, I adapted it for python 3 and added some usability extras so that anyone can download the data they feel they need and can stay up to date without relying on me or anyone to upload a new database of GradCafe entries. Additionally, I made it so the requests be made asynchronously and thus the scraping happens at a faster rate.
 
+### Queries to use to gather as much data as possible
+
+Deedy mentions in his article about using the following query to gather his data:
+
+`u*`
+
+I, however, found that the following query yields more results at the cost of being a lot slower to process by the site.
+
+`(a*|e*|i*|o*|u*)`
+
+It was this query alone that made me implemente the async fetching and scraping of data. Sometimes GradCafe won't be able to handle all the requests and might just 504 on you. Retrying might solve the issue.
+
 ## Overall GradCafe Statistics
 
 The basic stats:
 
-![All institution stats for PhDs](/assets/All_institutions_phd.png)
+<figure>
+  <img src="{{site.url}}/assets/All_institutions_phd.png" alt="All institution stats"/>
+  <figcaption>Fig. 1: Stats generated using all submissions for all institutions</figcaption>
+</figure>
 
 ## GRE Stats
 
@@ -52,17 +67,67 @@ These numbers do not align with the GRE stats gathered from GradCafe. This sugge
 
 ### GPA Stats
 
-While we don't have good stats for GPA, a source like [USNews](https://www.usnews.com/education/best-colleges/articles/2019-01-28/what-a-good-college-gpa-is-and-why-it-matters) claims that 2.0 should be an absolute minimum GPA to maintain, and even though grade inflation has been a clear phenomenon in the US, it's quite staggering how the GPA distribution for GradCafe users is so top heavy.
+While we don't have good stats for GPA, a source like [USNews](https://www.usnews.com/education/best-colleges/articles/2019-01-28/what-a-good-college-gpa-is-and-why-it-matters) claims that 2.0 should be an absolute minimum GPA to maintain. It's quite staggering how the GPA distribution for GradCafe users is so top heavy, even though grade inflation has been a clear phenomenon in the US. Or is it?
 
 ## Questions to be Answered
 
+### Do submissions on GradCafe reflect GPA inflation over the years?
+
+I personally don't know much about this subject, but apparently some universities have been taking measures against the grade inflation problem. GradCafe data seems to go against the common assumption that grade inflation is still a problem. Fig 2 shows how the average GPA for applicants has remained stable for the past 10+ years.
+
+<figure>
+  <img src="{{site.url}}/assets/gpa_inflation.png" alt="GPA plotted across years"/>
+  <figcaption>Fig. 2: Stats generated using all submissions for all institutions</figcaption>
+</figure>
+
+However, it may just be that top applicants, i.e. GradCafe users and maybe even you, reading this post, aren't too affected by the grade inflation problem as they may be perfectly capable of achieving top-notch grades without any extrinsical help.
+
 ### Do international students have significantly different stats?
 
-### When should you expect a response?
+There's always the question of whether international applicants are held to different standards. Deddy entertained this idea in his blog post and here I am just trying to replicate results.
+
+<figure>
+  <img src="{{site.url}}/assets/status_gre.png" alt="GRE stats depending on status"/>
+  <figcaption>Fig. 3: GRE distribution according to status</figcaption>
+</figure>
+
+When it comes to the GRE, Fig. 3 shows how international students, on average and across every field, seem to do slightly better than American students in the Quantitative section of the GRE. However, they do worse on the Verbal and Analytical Writing sections.
+
+How each section is weighted probably heavily depends on the field of study and so it's hard to measure if GRE standards are actually different for international students. These stats suggest that such discrepancy is not the case.
+
+<figure>
+  <img src="{{site.url}}/assets/status_gpa.png" alt="GPA stats depending on status"/>
+  <figcaption>Fig. 4: GPA distribution according to status</figcaption>
+</figure>
+
+When it comes to GPA, things are slightly fuzzier. Fig. 4 shows how American applicants are more top heavy when it comes to GPA. On the other hand, the distribution for international students seems more evened out. Different standards for GPA in different countries and different institutions probably explain this. It would not be out of the norm to have e.g. a 3.0 GPA in a particular school and still be a top 10% student.
+
+### When should you expect a response? Are international applicants contacted later?
+
+<figure>
+  <img src="{{site.url}}/assets/status_timelines.png" alt="Results timeline according to status"/>
+  <figcaption>Fig. 5: Timeline behavior according to status</figcaption>
+</figure>
+
+Fig. 5 suggests that both international and American students should be receiving news around roughly the same time. Does this vary by field though? I encourage people to explore this further, but as it stands, international applications being processed after national applications seems like a myth.
 
 ### How much does GPA matter?
 
+<figure>
+  <img src="{{site.url}}/assets/all_gpa.png" alt="GPA stats across all fields"/>
+  <figcaption>Fig. 6: GPA stats generated using all submissions for all institutions</figcaption>
+</figure>
+
+Fig. 6 certainly makes me feel like it does. GPA might just be an indicator of how good the rest of the application package is. Anything under 4.0 seems to be completely split between getting accepted and rejected, so there must be more to applications than just GPA (or GRE for that matter).
+
 ### How much do the GREs matter?
+
+<figure>
+  <img src="{{site.url}}/assets/all_gre.png" alt="GRE stats across all fields"/>
+  <figcaption>Fig. 7: GRE stats generated using all submissions for all institutions</figcaption>
+</figure>
+
+The only section of the GRE that could possibly be a predictor according to this data might be the Analytical Writing section. While this section is the one I personally respect more out of the whole test, it's often the most ignored section in my experience.
 
 I will be updating this post with stats and answers to those questions.
 
