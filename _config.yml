@@ -14,17 +14,19 @@ title: JDV's Blog
 tagline: CS, Linguistics, Grad School, etc.
 email: delvallejacobo@gmail.com
 description: A blog on my thoughts about CS, linguistics, grad school, music theory, BWF, and more.
-author: JDV
+author:
+  twitter: imaginarytl
 logo: public/favicon.ico
 url: "https://codewrites.me" # the base hostname & protocol for your site
-twitter_username: clinchergt
-github_username: clinchergt
+twitter: imaginarytl
+github: jjdelvalle
+locale: en_US
 
-plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap, jekyll-seo-tag]
 
 paginate:         5
 personal:
-  repo: https://github.com/clinchergt/jblog
+  repo: https://github.com/jjdelvalle/jblog
   url: https://jjdv.xyz
   cv: https://jjdv.xyz/personal/cv.pdf
 
