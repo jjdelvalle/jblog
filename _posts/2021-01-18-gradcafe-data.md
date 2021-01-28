@@ -38,11 +38,13 @@ Deedy mentions in his article about using the following query to gather his data
 
 `u*`
 
-I, however, found that the following query yields more results at the cost of being a lot slower to process by the site.
+This query yields around 500,000 results at the time of writing. I, however, found that the following query yields more results at the cost of being a lot slower to process by the site.
 
 `(a*|e*|i*|o*|u*)`
 
-It was this query alone that made me implemente the async fetching and scraping of data. Sometimes GradCafe won't be able to handle all the requests and might just 504 on you. Retrying might solve the issue.
+This query yields 650,000+ results.
+
+It was this query alone that made me implemente the async fetching and scraping of data. Sometimes GradCafe won't be able to handle all the requests and might just `504` on you. Retrying might solve the issue.
 
 ## Overall GradCafe Statistics
 
@@ -77,7 +79,7 @@ I personally don't know much about this subject, but apparently some universitie
 
 <figure>
   <img src="{{site.url}}/assets/gpa_inflation.png" alt="GPA plotted across years"/>
-  <figcaption>Fig. 2: Stats generated using all submissions for all institutions</figcaption>
+  <figcaption>Fig. 2: GPA average across all fields over the years</figcaption>
 </figure>
 
 However, it may just be that top applicants, i.e. GradCafe users and maybe even you, reading this post, aren't too affected by the grade inflation problem as they may be perfectly capable of achieving top-notch grades without any extrinsical help.
@@ -129,7 +131,13 @@ Fig. 6 certainly makes me feel like it does. GPA might just be an indicator of h
 
 The only section of the GRE that could possibly be a predictor according to this data might be the Analytical Writing section. While this section is the one I personally respect more out of the whole test, it's often the most ignored section in my experience.
 
-I will be updating this post with stats and answers to those questions.
+## Final notes
 
-I will also be adding most posts with more questions to be answered.
+This is by all imaginable metrics bad statistics. It's however more than we had before when it comes to actual graduate admissions data. Some of this analysis confirms what Deedy's analysis was over 5 years ago.
+
+We analyzed over 600,000 entries to GradCafe and while this sample is probably biased incredibly and even might include some *troll* posts, it's probably reliable enough to arrive at some answers.
+
+Distributions shown here probably vary *a lot* by field, and I can only encourage people to explore how their field behaves further.
+
+I will be updating this post with stats and answers to those questions. I will also be adding most posts with more questions to be answered.
 
