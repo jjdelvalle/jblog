@@ -16,7 +16,6 @@ email: delvallejacobo@gmail.com
 description: A blog on my thoughts about CS, linguistics, grad school, music theory, BWF, and more.
 author: JDV
 logo: public/favicon.ico
-baseurl: "/jblog" # the subpath of your site, e.g. /blog/
 url: "https://codewrites.me" # the base hostname & protocol for your site
 twitter_username: clinchergt
 github_username: clinchergt
