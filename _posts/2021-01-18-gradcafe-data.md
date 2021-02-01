@@ -51,7 +51,7 @@ It was this query alone that made me implemente the async fetching and scraping 
 The basic stats:
 
 <figure>
-  <img src="{{site.url}}/assets/All_institutions_phd-small.webp" alt="All institution stats"/>
+  <a href="{{site.url}}/assets/All_institutions_phd.png"><img src="{{site.url}}/assets/All_institutions_phd-small.webp" alt="All institution stats"/></a>
   <figcaption>Fig. 1: Stats generated using all submissions for all institutions</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ While we don't have good stats for GPA, a source like [USNews](https://www.usnew
 I personally don't know much about this subject, but apparently some universities have been taking measures against the grade inflation problem. GradCafe data seems to go against the common assumption that grade inflation is still a problem. Fig 2 shows how the average GPA for applicants has remained stable for the past 10+ years.
 
 <figure>
-  <img src="{{site.url}}/assets/gpa_inflation-small.webp" alt="GPA plotted across years"/>
+  <a href="{{site.url}}/assets/gpa_inflation.png"><img src="{{site.url}}/assets/gpa_inflation-small.webp" alt="GPA plotted across years"/></a>
   <figcaption>Fig. 2: GPA average across all fields over the years</figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ However, it may just be that top applicants, i.e. GradCafe users and maybe even 
 There's always the question of whether international applicants are held to different standards. Deddy entertained this idea in his blog post and here I am just trying to replicate results.
 
 <figure>
-  <img src="{{site.url}}/assets/status_gre-small.webp" alt="GRE stats depending on status"/>
+  <a href="{{site.url}}/assets/status_gre.png"><img src="{{site.url}}/assets/status_gre-small.webp" alt="GRE stats depending on status"/></a>
   <figcaption>Fig. 3: GRE distribution according to status</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ When it comes to the GRE, Fig. 3 shows how international students, on average an
 How each section is weighted probably heavily depends on the field of study and so it's hard to measure if GRE standards are actually different for international students. These stats suggest that such discrepancy is not the case.
 
 <figure>
-  <img src="{{site.url}}/assets/status_gpa-small.webp" alt="GPA stats depending on status"/>
+  <a href="{{site.url}}/assets/status_gpa.png"><img src="{{site.url}}/assets/status_gpa-small.webp" alt="GPA stats depending on status"/></a>
   <figcaption>Fig. 4: GPA distribution according to status</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ When it comes to GPA, things are slightly fuzzier. Fig. 4 shows how American app
 ### When should you expect a response? Are international applicants contacted later?
 
 <figure>
-  <img src="{{site.url}}/assets/status_timelines-small.webp" alt="Results timeline according to status"/>
+  <a href="{{site.url}}/assets/status_timelines.png"><img src="{{site.url}}/assets/status_timelines-small.webp" alt="Results timeline according to status"/></a>
   <figcaption>Fig. 5: Timeline behavior according to status</figcaption>
 </figure>
 
@@ -116,7 +116,7 @@ Fig. 5 suggests that both international and American students should be receivin
 ### How much does GPA matter?
 
 <figure>
-  <img src="{{site.url}}/assets/all_gpa-small.webp" alt="GPA stats across all fields"/>
+  <a href="{{site.url}}/assets/all_gpa.png"><img src="{{site.url}}/assets/all_gpa-small.webp" alt="GPA stats across all fields"/></a>
   <figcaption>Fig. 6: GPA stats generated using all submissions for all institutions</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ Fig. 6 certainly makes me feel like it does. GPA might just be an indicator of h
 ### How much do the GREs matter?
 
 <figure>
-  <img src="{{site.url}}/assets/all_gre-small.webp" alt="GRE stats across all fields"/>
+  <a href="{{site.url}}/assets/all_gre.png"><img src="{{site.url}}/assets/all_gre-small.webp" alt="GRE stats across all fields"/></a>
   <figcaption>Fig. 7: GRE stats generated using all submissions for all institutions</figcaption>
 </figure>
 
