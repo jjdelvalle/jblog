@@ -3,7 +3,6 @@ layout: post
 title:  "Grad Stats App"
 date:   2021-01-29
 categories: grad-school gre gradcafe
-hasmath:   "true"
 ---
 
 Continuation of [this post]({% post_url 2021-01-18-gradcafe-data %})
@@ -12,9 +11,7 @@ Recently I wrote about GradCafe stats and understandbly, people wanna know about
 
 So I built an app that lets you query the scraped data directly:
 
-<div class="video-container">
-<iframe src="https://www.youtube-nocookie.com/embed/5puIG1nuOxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5puIG1nuOxg" frameborder="0" allowfullscreen></iframe>
 
 The app was built using `streamlit` which made things really easy. The code is available on Github for anyone to check out but it's definitely nothing impressive.
 
