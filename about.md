@@ -4,7 +4,7 @@ title: About
 permalink: about/
 ---
 
-**Update:** This is now a very old "about me" page. I really ought to update it. In the meantime you can check out the [about page](https://jjdv.xyz/about.html) on my personal site.
+**Update:** This is now a very old "about me" page. I really ought to update it. In the meantime you can check out the [about page on my personal site](https://jjdv.xyz).
 
 I'm a Guatemalan CS student that loves to take walks on the beach. Except I never do that. I'm pretty much done with school and lately have gotten into linguistics, compling, etc. and bodyweight fitness.
 
