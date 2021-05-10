@@ -9,7 +9,7 @@ A couple of months ago I realized [a web app](https://gradstats.jjdv.xyz) that l
 
 *Note: I don't track your personal info, IP address, or anything. I only track what is being searched for and at what time.*
 
-I wrote about the app [on this blog](% post_url 2021-01-18-gradcafe-data %}) and [posted a link](https://www.reddit.com/r/gradadmissions/comments/ldcrev/update_gradcafe_analysis_i_created_an_app_that/) to it on reddit. And so, by now, I think enough people have used the app that some trends will be noticeable. As I am not logging anything related to the users, this analysis is gonna be pretty limited, but it should still be fun.
+I wrote about the app [on this blog]({% post_url 2021-01-29-grad-stats-app %}) and [posted a link](https://www.reddit.com/r/gradadmissions/comments/ldcrev/update_gradcafe_analysis_i_created_an_app_that/) to it on reddit. And so, by now, I think enough people have used the app that some trends will be noticeable. As I am not logging anything related to the users, this analysis is gonna be pretty limited, but it should still be fun.
 
 ## What majors are more popular?
 
