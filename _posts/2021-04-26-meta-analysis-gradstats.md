@@ -45,7 +45,7 @@ As I mentioned in this post before, are I'm not tracking information on the user
 
 It seems like the app is particularly popular for people outside the US, specifically international applicants with degrees from outside the US.
 
-As my [initial analysis]() showed, this is probably not due to international applicants getting results later than American applicants. 
+As my [initial analysis]({% post_url 2021-01-18-gradcafe-data %}) showed, this is probably not due to international applicants getting results later than American applicants. 
 
 ## What schools are more popular?
 
