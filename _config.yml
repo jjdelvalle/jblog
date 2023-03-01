@@ -26,7 +26,10 @@ scholar:
   style: apa
   locale: en
 
-plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap, jekyll-seo-tag, jekyll-scholar]
+toc:
+  ordered_list: true
+
+plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap, jekyll-seo-tag, jekyll-scholar, jekyll-toc]
 
 paginate:         5
 personal:
