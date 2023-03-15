@@ -48,7 +48,7 @@ It has been historically assumed that a good set of examples is important for go
 
 ### The Claim
 
-In their paper {% cite min-etal-2022-rethinking %} the authors explored 6 large language models (LLMs), ranging from 774 million parameters (GPT-2) to 175 billio parameters (GPT-3, see Table 1 for a full list of models evaluated). Two inference methods were tried: direct and channel. 6 different tasks were evaluated: sentiment analysis, paraphrase detection, sentence completion, NLI, hate speech detection, question answering. These tasks were evaluated on 26 datasets total.
+In their paper {% cite min-etal-2022-rethinking %} the authors explored 6 large language models (LLMs), ranging from 774 million parameters (GPT-2) to 175 billion parameters (GPT-3, see Table 1 for a full list of models evaluated). Two inference methods were tried: direct and channel. 6 different tasks were evaluated: sentiment analysis, paraphrase detection, sentence completion, NLI, hate speech detection, question answering. These tasks were evaluated on 26 datasets total.
 
 |Model|# Params|Public|Meta-trained|
 |-----|--------|------|------------|
@@ -61,7 +61,7 @@ In their paper {% cite min-etal-2022-rethinking %} the authors explored 6 large 
 
 _Table 1: Models analyzed {% cite min-etal-2022-rethinking %}_
 
-The authors ran experiments in a $k$-shot setting, where they set $k=16$ and ran each experiment on five different seeds. They used $F_1$ and accuracy as their reported metrics. Their finding were as follows:
+The authors ran experiments in a $$k$$-shot setting, where they set $$k=16$$ and ran each experiment on five different seeds. They used $$F_1$$ and accuracy as their reported metrics. Their finding were as follows:
 
 **Input-label Mapping**: the main result of the paper shows that assigning random labels (as opposed to the ground-truth labels) in the examples of the input has no significant impact to the ICL performance.
 
@@ -71,7 +71,7 @@ The authors ran experiments in a $k$-shot setting, where they set $k=16$ and ran
   <figcaption>Fig. 2: ICL performance not overly hurt when random labels are used..</figcaption>
 </figure>
 
-**Number of [correct] labels**: The effect described above seems to be consistent, regardless of what $k$ is picked. See Figure 3. Experiments also show that after a certain $k$ performance does not improve greatly.
+**Number of [correct] labels**: The effect described above seems to be consistent, regardless of what $$k$$ is picked. See Figure 3. Experiments also show that after a certain $$k$$ performance does not improve greatly.
 
 <figure>
   <a href="{{site.url}}/assets/icl_knumber.png"><img src="{{site.url}}/assets/icl_knumber.webp" alt="Experiment results on varying k."/></a>
