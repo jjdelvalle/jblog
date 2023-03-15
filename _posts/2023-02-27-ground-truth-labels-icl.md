@@ -12,7 +12,7 @@ With the introduction of pre-trained models and their adaption to downstream tas
 
 ## Background
 
-A few years ago, taking advantage of pre-trained languages became the way to approach a new task; by either adapting knowledge or fine-tuning the pre-trained model {% howard2018universal peters-etal-2018-deep inter-alia %} you could achieve state of the art performance. The battles of pre-trained languages, with their growing sizes began.
+A few years ago, taking advantage of pre-trained languages became the way to approach a new task; by either adapting knowledge or fine-tuning the pre-trained model {% cite howard2018universal peters-etal-2018-deep inter-alia %} you could achieve state of the art performance. The battles of pre-trained languages, with their growing sizes began.
 
 In 2020, {% cite NEURIPS2020_1457c0d6 %} introduced what they call in-context learning (ICL) as a concept for sufficiently large models. The authors propose GPT-3, a model trained on a causal language modeling task on massive amounts of data. The resulting model shows the ability of ICL. ICL consists on models getting a prompt with instructions for the task to be carried out. Additionally, examples of the task done successfully can also included. The performance of ICL is suprisingly good and best of all: no parameter updating happens.
 
