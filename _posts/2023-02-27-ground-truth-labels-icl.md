@@ -21,7 +21,7 @@ We will first look at in-context learning as presented originally {% cite NEURIP
 
 <figure>
   <a href="{{site.url}}/assets/icl_gpt3paper.png"><img src="{{site.url}}/assets/icl_gpt3paper.webp" alt="ICL input example"/></a>
-  <figcaption>Fig. 1: In-context learning as presented originally{% cite NEURIPS2020_1457c0d6 %}.</figcaption>
+  <figcaption>Fig. 1: In-context learning as presented originally {% cite NEURIPS2020_1457c0d6 %}.</figcaption>
 </figure>
 
 The original paper calls this specific input an example of few-shot in-context learning. From this example we can infer that we can study at least the following aspects of ICL:
@@ -67,14 +67,14 @@ The authors ran experiments in a $$k$$-shot setting, where they set $$k=16$$ and
 
 <figure>
   <a href="{{site.url}}/assets/icl_inputlabel.png"><img src="{{site.url}}/assets/icl_inputlabel.webp" alt="ICL input-label mapping experiment results."/></a>
-  <figcaption>Fig. 2: ICL performance not overly hurt when random labels are used{% cite min-etal-2022-rethinking %}.</figcaption>
+  <figcaption>Fig. 2: ICL performance not overly hurt when random labels are used {% cite min-etal-2022-rethinking %}.</figcaption>
 </figure>
 
 **Number of [correct] labels**: The effect described above seems to be consistent, regardless of what $$k$$ is picked. See Figure 3. Experiments also show that after a certain $$k$$ performance does not improve greatly.
 
 <figure>
   <a href="{{site.url}}/assets/icl_knumber.png"><img src="{{site.url}}/assets/icl_knumber.webp" alt="Experiment results on varying k."/></a>
-  <figcaption>Fig. 3: Ablations on varying numbers of examples in the demonstrations{% cite min-etal-2022-rethinking %}.</figcaption>
+  <figcaption>Fig. 3: Ablations on varying numbers of examples in the demonstrations {% cite min-etal-2022-rethinking %}.</figcaption>
 </figure>
 
 **Why it works (other factors)**:
@@ -85,17 +85,17 @@ Figures 4, 5 and 6 show their findings with respect to distribution of inputs, f
 
 <figure>
   <a href="{{site.url}}/assets/icl_inputdist.png"><img src="{{site.url}}/assets/icl_inputdist.webp" alt="Experiment results on input distribution."/></a>
-  <figcaption>Fig. 4: Input distribution results. Distribution of input can be directly seen by comparing the middle bars{% cite min-etal-2022-rethinking %}.</figcaption>
+  <figcaption>Fig. 4: Input distribution results. Distribution of input can be directly seen by comparing the middle bars {% cite min-etal-2022-rethinking %}.</figcaption>
 </figure>
 
 <figure>
   <a href="{{site.url}}/assets/icl_format.png"><img src="{{site.url}}/assets/icl_format.webp" alt="Experiments results for format factor."/></a>
-  <figcaption>Fig. 5: Format results{% cite min-etal-2022-rethinking %}.</figcaption>
+  <figcaption>Fig. 5: Format results {% cite min-etal-2022-rethinking %}.</figcaption>
 </figure>
 
 <figure>
   <a href="{{site.url}}/assets/icl_labelspace.png"><img src="{{site.url}}/assets/icl_labelspace.webp" alt="Experiments on other factors."/></a>
-  <figcaption>Fig. 6: Label space can be evaluated by looking at the middle bars{% cite min-etal-2022-rethinking %}.</figcaption>
+  <figcaption>Fig. 6: Label space can be evaluated by looking at the middle bars {% cite min-etal-2022-rethinking %}.</figcaption>
 </figure>
 
 Briefly, **they find that showing the label and input distribution, even if it is just independently**, i.e. now showing a direct mapping, is crucial for ICL. If one of these aspects if missing but the right format is used, performance can still remain high.
@@ -106,7 +106,7 @@ With NLP moving so fast, such bold claims would not go unchallenged. In the same
 
 <figure>
   <a href="{{site.url}}/assets/icl_rebuttal.png"><img src="{{site.url}}/assets/icl_rebuttal.webp" alt="Experiment showing that ground-truth labels sometimes matter."/></a>
-  <figcaption>Fig. 7: Experiment showing that ground-truth labels sometimes matter{% cite yoo-etal-2022-ground %}.</figcaption>
+  <figcaption>Fig. 7: Experiment showing that ground-truth labels sometimes matter {% cite yoo-etal-2022-ground %}.</figcaption>
 </figure>
 
 The authors of this work aim to propose more systematic metrics and experiments to analyzing this phenomenon. The authors use mostly the same tasks and datasets. Additionally, however, they propose the following.
@@ -151,7 +151,7 @@ $$ y_{rel} = y_{GT} - y_{baseline} $$
 
 <figure>
   <a href="{{site.url}}/assets/icl_relative.png"><img src="{{site.url}}/assets/icl_relative.webp" alt="Relative difficulty vs sensitivity"/></a>
-  <figcaption>Fig. 9: Relative difficulty against sensitivity{% cite yoo-etal-2022-ground %}.</figcaption>
+  <figcaption>Fig. 9: Relative difficulty against sensitivity {% cite yoo-etal-2022-ground %}.</figcaption>
 </figure>
 
 The authors conclude that sensitivity alone is not a powerful enough metric on its own. Something like task difficulty must also be taken into account.
@@ -179,17 +179,17 @@ Figures 10, 11 and 12 show these results in more detail.
 
 <figure>
   <a href="{{site.url}}/assets/icl_larger.png"><img src="{{site.url}}/assets/icl_larger.webp" alt="Overriding power contrasted with scale."/></a>
-  <figcaption>Fig. 10: Models get better at overriding semantic priors as they get larger{% cite wei2023larger %}.</figcaption>
+  <figcaption>Fig. 10: Models get better at overriding semantic priors as they get larger {% cite wei2023larger %}.</figcaption>
 </figure>
 
 <figure>
   <a href="{{site.url}}/assets/icl_sul.png"><img src="{{site.url}}/assets/icl_sul.webp" alt="Unrelated label usage vs scale"/></a>
-  <figcaption>Fig. 11: Models get better at making use of even unrelated labels in the prompt as they grow larger{% cite wei2023larger %}.</figcaption>
+  <figcaption>Fig. 11: Models get better at making use of even unrelated labels in the prompt as they grow larger {% cite wei2023larger %}.</figcaption>
 </figure>
 
 <figure>
   <a href="{{site.url}}/assets/icl_instruction.png"><img src="{{site.url}}/assets/icl_instruction.webp" alt="Overriding power vs size for instruction-tuned models results."/></a>
-  <figcaption>Fig. 12: Instruction tuned language models are worse at overriding semantic priors{% cite wei2023larger %}.</figcaption>
+  <figcaption>Fig. 12: Instruction tuned language models are worse at overriding semantic priors {% cite wei2023larger %}.</figcaption>
 </figure>
 
 ## Conclusion
