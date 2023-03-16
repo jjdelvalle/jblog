@@ -28,7 +28,7 @@ scholar:
   locale: en
 
 toc:
-  ordered_list: true
+  ordered_list: false
 
 plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap, jekyll-seo-tag, jekyll-scholar, jekyll-toc]
 
