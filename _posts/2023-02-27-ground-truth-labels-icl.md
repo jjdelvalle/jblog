@@ -8,11 +8,11 @@ toc: true
 hidden: true
 ---
 
-With the introduction of pre-trained models and their adaption to downstream tasks {% cite howard2018universal devlin-etal-2019-bert inter-alia %}, the natural language processing (NLP) field has had its imagenet-moment. Moreover, in-context learning (ICL) {% cite NEURIPS2020_1457c0d6 %} has proven to be another great game-changer on top of pre-trained languages. However, not a lot of work has gone into exploring why ICL works and what elements are crucial to its performance. In this blog post, I go over some literature exploring why, how and when ICL works {% cite min-etal-2022-rethinking yoo-etal-2022-ground wei2023larger %}.
+With the introduction of pre-trained models and their adaption to downstream tasks {% cite howard2018universal devlin-etal-2019-bert %}, the natural language processing (NLP) field has had its imagenet-moment. Moreover, in-context learning (ICL) {% cite NEURIPS2020_1457c0d6 %} has proven to be another great game-changer on top of pre-trained languages. However, not a lot of work has gone into exploring why ICL works and what elements are crucial to its performance. In this blog post, I go over some literature exploring why, how and when ICL works {% cite min-etal-2022-rethinking yoo-etal-2022-ground wei2023larger %}.
 
 ## Background
 
-A few years ago, taking advantage of pre-trained languages became the way to approach a new task; by either adapting knowledge or fine-tuning the pre-trained model {% cite howard2018universal peters-etal-2018-deep inter-alia %} you could achieve state of the art performance. The battles of pre-trained languages, with their growing sizes began.
+A few years ago, taking advantage of pre-trained languages became the way to approach a new task; by either adapting knowledge or fine-tuning the pre-trained model {% cite howard2018universal peters-etal-2018-deep %} you could achieve state of the art performance. The battles of pre-trained languages, with their growing sizes began.
 
 In 2020, {% cite NEURIPS2020_1457c0d6 %} introduced what they call in-context learning (ICL) as a concept for sufficiently large models. The authors propose GPT-3, a model trained on a causal language modeling task on massive amounts of data. The resulting model shows the ability of ICL. ICL consists on models getting a prompt with instructions for the task to be carried out. Additionally, examples of the task done successfully can also included. The performance of ICL is suprisingly good and best of all: no parameter updating happens.
 
