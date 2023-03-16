@@ -5,7 +5,6 @@ date:   2023-02-27 14:03
 categories: nlp icl few-shot
 hasmath:   "true"
 toc: true
-hidden: true
 ---
 
 With the introduction of pre-trained models and their adaption to downstream tasks {% cite howard2018universal devlin-etal-2019-bert %}, the natural language processing (NLP) field has had its imagenet-moment. Moreover, in-context learning (ICL) {% cite NEURIPS2020_1457c0d6 %} has proven to be another great game-changer on top of pre-trained languages. However, not a lot of work has gone into exploring why ICL works and what elements are crucial to its performance. In this blog post, I go over some literature exploring why, how and when ICL works {% cite min-etal-2022-rethinking yoo-etal-2022-ground wei2023larger %}.
